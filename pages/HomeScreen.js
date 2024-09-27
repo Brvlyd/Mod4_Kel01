@@ -9,7 +9,7 @@ TouchableOpacity,
 SafeAreaView,
 } from "react-native";
 import axios from "axios";
-import Header from "../components/Header.js";
+import Header from "../components/Header";
 function HomeScreen() {
 const [data, setData] = useState([]);
 const [count, setCount] = useState(1);
@@ -38,7 +38,7 @@ return (
 <SafeAreaView style={styles.container}>
 <Header
 headerIcon={"bell-o"}
-headerText={"Hi, Salman!"}
+headerText={"Hi, Zein Ganteng kiw kiw bejir!"}
 flexPosition={"flex-start"}
 />
 <View
