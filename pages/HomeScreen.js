@@ -9,7 +9,7 @@ TouchableOpacity,
 SafeAreaView,
 } from "react-native";
 import axios from "axios";
-import Header from "../components/Header";
+import Header from "../components/Header.js";
 function HomeScreen() {
 const [data, setData] = useState([]);
 const [count, setCount] = useState(1);
